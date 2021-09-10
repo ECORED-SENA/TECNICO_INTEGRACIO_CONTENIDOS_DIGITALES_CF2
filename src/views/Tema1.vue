@@ -17,6 +17,7 @@
         p Es común hablar de edición y montaje como el mismo proceso técnico, ya que la palabra montaje, del francés montage, hace referencia a montar, poner encima; pero para los teóricos del lenguaje audiovisual, el montaje tiene que ver con un proceso narrativo, mientras que la edición contempla un proceso de tipo técnico. De esta manera, lo que se refiere a la composición de mensajes o significados a través de elementos audiovisuales se conoce como montaje audiovisual, que es el paso técnico y narrativo último del producto audiovisual, aunque viene definido previamente en la elaboración del guion.
         p.mt-3 En todo caso, para desarrollar los temas necesarios en este apartado, se deben considerar las dos definiciones, porque como es sabido, en lo que respecta al tratamiento de imágenes fijas, lo común es hablar de “edición de imágenes”, mientras que montaje fotográfico o fotomontaje se refiere a un producto de la edición. 
     p.mt-4 Por consiguiente, a continuación, se hace un acercamiento frente a las definiciones: 
+    Separador
     TabsB.color-primario.mb-5
       .py-4.py-md-5(titulo="Definición montaje" :icono="require('@/assets/curso/2.svg')")        
         .row
@@ -34,21 +35,22 @@
           .col-4.offset-4.offset-lg-0
             figure
               img(src="@/assets/curso/5.svg", alt="Texto que describa la imagen").w-75.margin-0-auto
+    Separador
     #t_1_1.titulo-segundo(data-aos="fade-right")
       h2 1.1  Edición de imagen
       
-    .row.justify-content-center.tarjeta.bg--row.p-4.mb-5
+    .row.justify-content-center.tarjeta.bg--row.p-4.mb-5(data-aos="zoom-in-up") 
       .col-11
         TabsC.color-primario.mb-5
-          .py-3.py-md-4(titulo="Home")
+          .py-3.py-md-4(titulo="Inicio")
             img(src="@/assets/curso/6.jpg")
           .py-3.py-md-4(titulo="Edición de imagen")
-            SlyderE(indicadores="centro")
-              div
+            
+              
                 .row.mb-5
                   .col-lg-7
                     .tarjeta.tarjeta--azul.p-4.mb-5.mb-lg-0
-                      .titulo-sexto.color-primario
+                      .titulo-sexto.color-primario(data-aos="fade-right")
                         h4.mb-0
                           spam.bg--4.p-1
                             | Edición de imagen
@@ -80,12 +82,11 @@
                     img(src="@/assets/curso/14.svg" style="width: 128px").mb-3.m-auto
                     h5.text-center Dígitos sistema binarío
           .py-3.py-md-4(titulo="La imagen digital ")
-            SlyderE(indicadores="centro")
-              div
+            
                 figure.mb-5
                   img(src="@/assets/curso/15.jpg" alt="Texto que describa la imagen")
                 .tarjeta.tarjeta--azul.p-4.mb-5.mb-lg-0
-                      .titulo-sexto.color-primario
+                      .titulo-sexto.color-primario(data-aos="fade-right")
                         h4.mb-0
                           spam.bg--4.p-1
                             | La imagen digital
@@ -99,7 +100,7 @@
                         b imagen digital o gráfico digital, 
                         |la cual es representada de manera bidimensional , a partir de una imagen de una matriz numérica, frecuentemente en binario unos y ceros; esta se almacena en una memoria informática para luego ser interpretada por un sistema informático y que se transforma en una imagen visible a través de la pantalla e imprimible a través de cualquier dispositivo de salida.
           .py-3.py-md-4(titulo="Tipos de imágenes digitales")
-            .titulo-sexto.color-primario
+            .titulo-sexto.color-primario(data-aos="fade-right")
               h4.mb-0
                 spam.bg--4.p-1
                   | Tipos de imágenes digitales
@@ -122,7 +123,6 @@
                     |Pese a que presentan características distintas, cada día es más común que ambos tipos de imágenes se vinculen a través de programas de tratamiento de imágenes.
                 .col-lg-4: img(src="@/assets/curso/17.jpg")
           .py-3.py-md-4(titulo="Elementos de la imagen digital")
-            SlyderE(indicadores="centro")
               .row.justify-content-center
                 .col-lg-10
                   .cajon-editado
@@ -138,7 +138,7 @@
             SlyderE(indicadores="centro").mb-5
               div
                 .tarjeta.tarjeta--azul.p-4.mb-5.mb-lg-5
-                      .titulo-sexto.color-primario
+                      .titulo-sexto.color-primario(data-aos="fade-right")
                         h4.mb-0
                           spam.bg--4.p-1
                             | Formatos
@@ -228,7 +228,7 @@
                           h3.mb-1 Formatos de imagen digital
                           p.text-small Estimado aprendiz, para profundizar sobre el tema puede dar clic para ir al siguiente documento” Formato de imagen digital
                         .col-sm-auto
-                          a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                          a.boton.color-acento-botones(:href="obtenerLink('/downloads/formatos_imagen_digital.pdf')" target="_blank")
                             span Descargar
                             i.fas.fa-file-download
                       .row.justify-content-between.align-items-center
@@ -236,14 +236,14 @@
                           h3.mb-1 Mapa de Bits e Imágenes Vectoriales
                           p.text-small Estimado aprendiz, para profundizar sobre el tema puede consultar la siguiente video:  
                         .col-sm-auto
-                          a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                          a.boton.color-acento-botones(:href="('https://www.youtube.com/watch?v=9i_0cLdJE-s&ab_channel=HeyJaime')" target="_blank")
                             span Enlace web
                             i.fas.fa-link
           .py-3.py-md-4(titulo="Resolución de la imagen")
             SlyderE(indicadores="centro").mb-5
               div
                 .tarjeta.tarjeta--azul.p-4.mb-5.mb-lg-5
-                      .titulo-sexto.color-primario
+                      .titulo-sexto.color-primario(data-aos="fade-right")
                         h4.mb-0
                           spam.bg--4.p-1
                             | Resolución de la imagen
@@ -320,7 +320,8 @@
                       img(src="@/assets/template/tema-1-37.png", alt="Texto que describa la imagen")
                     p.mt-4 #[strong Color indexado:] en este modo el número de colores máximo es de 256. #[strong (M, 2014).]
     p.mb-5 Ya vistos los temas que conciernen a la imagen digital, es momento de pasar a la edición de la misma. Para iniciar, una breve definición:
-    .titulo-sexto.color-primario
+    Separador
+    .titulo-sexto.color-primario(data-aos="fade-right")
       h4.mb-0
         spam.bg--4.p-1
           | Definición de edición de la imagen
@@ -328,12 +329,12 @@
       <iframe frameborder="0" class="juxtapose" width="80%" height="722" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=dfb199c6-11d7-11ec-abb7-b9a7ff2ee17c"></iframe>
     p.mb-5 “Es la manipulación, a través de programas de edición gráfica, de imágenes capturadas o previamente diseñadas, con la intención de reforzar conceptos o mensajes mediante la modificación del color, formas, composición, contrastes, estilo, etcétera. La edición para hacer collages o mejorar la calidad de la imagen, es también un recurso de gran valor en publicidad; gracias a ello, se pueden exagerar o disminuir rasgos o elementos de todo tipo” (Viveros, 2005) El programa donde se hace el tratamiento es un editor de imágenes que ofrece opciones de edición, herramientas, efectos y modificación en el formato al guardar el archivo.
     Separador
-    .titulo-sexto.color-primario
+    .titulo-sexto.color-primario(data-aos="fade-right")
       h4.mb-0
         spam.bg--4.p-1
           | Aspectos de la edición de imágenes
     p.mb-5 El tratamiento o edición de la imagen digital comprende aspectos creativos y herramientas técnicas, explicados a continuación:
-    AcordeonB.mb-5(tipo="b" clase-tarjeta="tarjeta")
+    AcordeonB.mb-5(tipo="b" clase-tarjeta="tarjeta")(data-aos="zoom-in-up") 
       .row(titulo="Aspectos Creativos")
         .col-md-4
           figure
@@ -357,154 +358,181 @@
             img(src='@/assets/curso/38.jpg', alt='Texto que describa la imagen')
         .col-md-8.mb-4.mb-md-0
           p Pese a ser un proceso técnico que involucra el conocimiento de las herramientas del software que se use, es también un proceso creativo, puesto que el retoque puede llevar implícito significados que se quieren compartir con el receptor.  El retoque da la opción de manipular imágenes o fotografías  y  permite alterar el escenario, la luz, el color y la percepción de forma variada e ingeniosa para construir  una nueva imagen.
-    AcordeonC.mb-5(tipo="a" clase-tarjeta="tarjeta")
+    Separador
+    AcordeonC.mb-5(tipo="a" clase-tarjeta="tarjeta")(data-aos="zoom-in-up") 
       .row(titulo="Herramientas para la edición")
         p.mb-5 Tienen que ver con los software de tratamiento de imagen. El mercado ofrece múltiples opciones y se clasifican entre los editores para computador, celulares y editores online. 
         .row.justify-content-center.align-items-end
           .col-lg-2
             .iconos-hover.h-100
-              .contenedor_icono.p-4.mb-3
+              .contenedor_icono.p-4
                 img(src='@/assets/curso/39.svg', alt='Texto que describa la imagen')
+              hr.mt-0
               h5.text-center Canva
           .col-lg-2
             .iconos-hover.h-100
-              .contenedor_icono.p-4.mb-3
+              .contenedor_icono.p-4
                 img(src='@/assets/curso/40.svg', alt='Texto que describa la imagen')
+              hr.mt-0
               h5.text-center Crello
           .col-lg-2
             .iconos-hover.h-100
-              .contenedor_icono.p-4.mb-3
+              .contenedor_icono.p-4
                 img(src='@/assets/curso/41.svg', alt='Texto que describa la imagen')
+              hr.mt-0
               h5.text-center Piktochart
           .col-lg-2
             .iconos-hover.h-100
-              .contenedor_icono.p-4.mb-3
+              .contenedor_icono.p-4
                 img(src='@/assets/curso/42.svg', alt='Texto que describa la imagen')
+              hr.mt-0
               h5.text-center Adobe Spark
           .col-lg-2
             .iconos-hover.h-100
-              .contenedor_icono.p-4.mb-3
+              .contenedor_icono.p-4
                 img(src='@/assets/curso/43.svg', alt='Texto que describa la imagen')
+              hr.mt-0
               h5.text-center Befunky
           .col-lg-2
             .iconos-hover.h-100
-              .contenedor_icono.p-4.mb-3
+              .contenedor_icono.p-4
                 img(src='@/assets/curso/44.svg', alt='Texto que describa la imagen')
+              hr.mt-0
               h5.text-center Freepik
       .row(titulo="Para computador")
         p.mb-5 suelen tener mayores funcionalidades, lo que se traduce en mejor desempeño, pero también ocupan espacio en el disco duro ya que son mucho más completos. Normalmente requieren conocimientos de la herramienta, incluso de diseño, así que se necesita conocimiento y experiencia en su manejo Algunos editores de fotos para computadora son Adobe Photoshop, Corel Draw, Paint.net, GIMP.
         .row.mb-5.justify-content-center.align-items-end
           .col-lg-2
             .iconos-hover.h-100
-              .contenedor_icono.p-4.mb-3
+              .contenedor_icono.p-4
                 img(src='@/assets/curso/45.svg', alt='Texto que describa la imagen')
+              hr.mt-0
               h5.text-center Adobe Ilustrator
           .col-lg-2
             .iconos-hover.h-100
-              .contenedor_icono.p-4.mb-3
+              .contenedor_icono.p-4
                 img(src='@/assets/curso/46.svg', alt='Texto que describa la imagen')
+              hr.mt-0
               h5.text-center Gravit Designer
           .col-lg-2
             .iconos-hover.h-100
-              .contenedor_icono.p-4.mb-3
+              .contenedor_icono.p-4
                 img(src='@/assets/curso/47.svg', alt='Texto que describa la imagen')
+              hr.mt-0
               h5.text-center VSCO
           .col-lg-2
             .iconos-hover.h-100
-              .contenedor_icono.p-4.mb-3
+              .contenedor_icono.p-4
                 img(src='@/assets/curso/48.svg', alt='Texto que describa la imagen')
+              hr.mt-0
               h5.text-center Adobe Indesign
           .col-lg-2
             .iconos-hover.h-100
-              .contenedor_icono.p-4.mb-3
+              .contenedor_icono.p-4
                 img(src='@/assets/curso/49.svg', alt='Texto que describa la imagen')
+              hr.mt-0
               h5.text-center Afterlight
           .col-lg-2
             .iconos-hover.h-100
-              .contenedor_icono.p-4.mb-3
+              .contenedor_icono.p-4
                 img(src='@/assets/curso/50.svg', alt='Texto que describa la imagen')
+              hr.mt-0
               h5.text-center Adobe Photoshop
         .row.mb-5.justify-content-center.align-items-end
           .col-lg-2
             .iconos-hover.h-100
-              .contenedor_icono.p-4.mb-3
+              .contenedor_icono.p-4
                 img(src='@/assets/curso/51.svg', alt='Texto que describa la imagen')
+              hr.mt-0
               h5.text-center SVG-Edit
           .col-lg-2
             .iconos-hover.h-100
-              .contenedor_icono.p-4.mb-3
+              .contenedor_icono.p-4
                 img(src='@/assets/curso/52.svg', alt='Texto que describa la imagen')
+              hr.mt-0
               h5.text-center Snapseed 
           .col-lg-2
             .iconos-hover.h-100
-              .contenedor_icono.p-4.mb-3
+              .contenedor_icono.p-4
                 img(src='@/assets/curso/53.svg', alt='Texto que describa la imagen')
+              hr.mt-0
               h5.text-center Vectr
           .col-lg-2
             .iconos-hover.h-100
-              .contenedor_icono.p-4.mb-3
+              .contenedor_icono.p-4
                 img(src='@/assets/curso/54.svg', alt='Texto que describa la imagen')
+              hr.mt-0
               h5.text-center Inkscape
           .col-lg-2
             .iconos-hover.h-100
-              .contenedor_icono.p-4.mb-3
+              .contenedor_icono.p-4
                 img(src='@/assets/curso/55.svg', alt='Texto que describa la imagen')
+              hr.mt-0
               h5.text-center Gimp
           .col-lg-2
             .iconos-hover.h-100
-              .contenedor_icono.p-4.mb-3
+              .contenedor_icono.p-4
                 img(src='@/assets/curso/56.svg', alt='Texto que describa la imagen')
+              hr.mt-0
               h5.text-center Canva
         .row.mb-5.justify-content-center.align-items-end
           .col-lg-2
             .iconos-hover.h-100
-              .contenedor_icono.p-4.mb-3
+              .contenedor_icono.p-4
                 img(src='@/assets/curso/57.svg', alt='Texto que describa la imagen')
+              hr.mt-0
               h5.text-center PaintShop Pro 2019
           .col-lg-2
             .iconos-hover.h-100
-              .contenedor_icono.p-4.mb-3
+              .contenedor_icono.p-4
                 img(src='@/assets/curso/58.svg', alt='Texto que describa la imagen')
+              hr.mt-0
               h5.text-center Lightroom
           .col-lg-2
             .iconos-hover.h-100
-              .contenedor_icono.p-4.mb-3
+              .contenedor_icono.p-4
                 img(src='@/assets/curso/59.svg', alt='Texto que describa la imagen')
+              hr.mt-0
               h5.text-center Pixlr Editor
           .col-lg-2
             .iconos-hover.h-100
-              .contenedor_icono.p-4.mb-3
+              .contenedor_icono.p-4
                 img(src='@/assets/curso/60.svg', alt='Texto que describa la imagen')
+              hr.mt-0
               h5.text-center Corel Draw
       .row(titulo="Para celulares")
         p.mb-5 suelen tener mayores funcionalidades, lo que se traduce en mejor desempeño, pero también ocupan espacio en el disco duro ya que son mucho más completos. Normalmente requieren conocimientos de la herramienta, incluso de diseño, así que se necesita conocimiento y experiencia en su manejo Algunos editores de fotos para computadora son Adobe Photoshop, Corel Draw, Paint.net, GIMP.
         .row.mb-5.justify-content-center.align-items-end
           .col-lg-2
             .iconos-hover.h-100
-              .contenedor_icono.p-4.mb-3
+              .contenedor_icono.p-4
                 img(src='@/assets/curso/39.svg', alt='Texto que describa la imagen')
+              hr.mt-0
               h5.text-center Canva
           .col-lg-2
             .iconos-hover.h-100
-              .contenedor_icono.p-4.mb-3
+              .contenedor_icono.p-4
                 img(src='@/assets/curso/61.svg', alt='Texto que describa la imagen')
+              hr.mt-0
               h5.text-center Adobe Photoshop
           .col-lg-2
             .iconos-hover.h-100
-              .contenedor_icono.p-4.mb-3
+              .contenedor_icono.p-4
                 img(src='@/assets/curso/62.svg', alt='Texto que describa la imagen')
+              hr.mt-0
               h5.text-center VSCO
       .row(titulo="Editores online")
         p.mb-5 no necesitan descargarse en dispositivos y muchos de ellos tienen versiones gratuitas, con funciones limitadas y un poco de publicidad en sus interfaces. Algunos son Canva o Photoshop Express en esta clasificación, además de Photo Fancy y PicMonkey.
         .row.mb-5.justify-content-center.align-items-end
           .col-lg-2
             .iconos-hover.h-100
-              .contenedor_icono.p-4.mb-3
+              .contenedor_icono.p-4
                 img(src='@/assets/curso/63.svg', alt='Texto que describa la imagen')
+              hr.mt-0
               h5.text-center PicMonkey
-    .bloque-texto-a.color-primario.p-4.p-md-5.mb-5 
+    .bloque-texto-a.color-primario.p-4.p-md-5.mb-5(data-aos="zoom-in-up") 
       .row.m-0.align-items-center.justify-content-between
-        .col-lg-4.mb-4.mb-lg-0: img(src='@/assets/curso/64.svg', alt='Texto que describa la imagen')
+        .col-lg-4.mb-4.mb-lg-0: img(src='@/assets/curso/64.svg', alt='Texto que describa la imagen' style='width: 250px').m-auto
         .col-lg-8
           .bloque-texto-a__texto.p-4
             h5 Gratuitos: 
@@ -512,6 +540,7 @@
             br
             h5 Pago: 
             p InPixio Photo Editor, Adobe Photoshop, PaintShop, Pixelmator Pro, PhotoPlus, Lightroom, PhotoDirector, PicMonkey, Ribbet, Mextures, Touch Retouch y SKRWT
+    Separador
     #t_1_2.titulo-segundo(data-aos="fade-right")
       h2 1.2  Edición de audio
     .row.mb-5
@@ -521,7 +550,7 @@
           br
           |Un sonido digital suele tener asociados una serie de condiciones y parámetros característicos entre los que se puede destacar: la tendencia a ser dinámicos, su capacidad de interactividad, su condición ubicua y su naturaleza versátil.
       .col-lg-6: img(src="@/assets/curso/65.jpg")
-    .titulo-sexto.color-primario
+    .titulo-sexto.color-primario(data-aos="fade-right")
       h4.mb-0
         spam.bg--4.p-1
           | Formatos para la edición de audio 
@@ -531,7 +560,7 @@
       | Según el uso y la utilidad, los formatos de audio se dividen en dos categorías. Una, los que se usan para almacenar archivos de audio en DD, memorias USB o dispositivos que permiten escuchar este tipo de archivos (MP3, WAV, AIFF) y otra los que se usan en servicios de transmisión online (OGG, FLAC, ALAC).
     .row.justify-content-center.mb-5
       .col-lg-10
-        .tarjeta.bg--2-claro.flechas-slyder.p-4
+        .tarjeta.bg--2-claro.flechas-slyder.p-4(data-aos="zoom-in-up") 
           SlyderA
             .row.p-4.align-items-center.justify-content-center
               .col-md-2
@@ -587,7 +616,7 @@
     //-   i.fab.fa-android.m-1
     //-   i.fab.fa-apple.m-1
     //-   h5 
-    .row.justify-content-center.mb-3
+    .row.justify-content-center.mb-3(data-aos="zoom-in-up") 
       .col-lg-4
         .tarjeta.bg--4-claro.p-4.h-100
           figure.mb-3.ajuste-img.p-3
@@ -618,7 +647,7 @@
           p
             b Mp3DirectCut:  
             | programa que permite editar de forma rápida archivos comprimidos en mp3. Permitir realizar la edición de los archivos sin descomprimirlos.
-    .row.justify-content-center.mb-3
+    .row.justify-content-center.mb-3(data-aos="zoom-in-up") 
       .col-lg-4
         .tarjeta.bg--4-claro.p-4.h-100
           figure.mb-3.ajuste-img.p-3
@@ -651,7 +680,7 @@
           p
             b WavePad:  
             |  permite grabar y editar música, voz y archivos de audio. Puede realizar la mayoría de tareas básicas en lo que se refiere a edición de audios.
-    .row.justify-content-center.mb-3
+    .row.justify-content-center.mb-3(data-aos="zoom-in-up") 
       .col-lg-4
         .tarjeta.bg--4-claro.p-4.h-100
           figure.mb-3.ajuste-img.p-3
@@ -683,7 +712,7 @@
           p
             b Let 's make music: 
             | programa pensado principalmente para producir música con el computador. Incluye la creación de melodías y ritmos, sintetizar y mezclar sonidos y guardar de forma ordenada cada una de las melodías que se van creando. 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="zoom-in-up") 
       .col-lg-4
         .tarjeta.bg--4-claro.p-4.h-100
           figure.mb-3.ajuste-img.p-3
@@ -708,12 +737,13 @@
             | Aplicación en forma de estudio de sonido destinado a la edición de audio digital de Adobe Systems Incorporated que permite un entorno de edición mezclado de ondas multipista.
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)  
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen) 
+    Separador 
     #t_1_3.titulo-segundo(data-aos="fade-right")
       h2 1.3  Edición de video 
     .contenedor-fondo.p-5.mb-5
       h4 La edición de video requiere de la manipulación de varios elementos, en donde la unión de varias imágenes y la adición de efectos digitales, como música, efectos y textos, posibilitan tener un resultado de un producto listo, pero que requiere de una serie de conocimientos que se amplían en el video relacionado a continuación:
-    .titulo-sexto.color-primario
+    .titulo-sexto.color-primario(data-aos="fade-right")
       h4.mb-0
         spam.bg--4.p-1
           | La imagen en movimiento
@@ -721,16 +751,17 @@
       .col-12.col-lg-9
         p Son aquellas que pueden verse a través de medios audiovisuales y representan secuencias: cine, animación, vídeo, gift, etc. 
         p.mt-3 El movimiento de una imagen se produce cuando una sucesión de imágenes estáticas, llamadas fotogramas, son proyectadas a gran velocidad. Para que una imagen fija se perciba en movimiento se tienen que proyectar un mínimo de 16 imágenes por segundo, aunque para percibirlo como real, se graba y se proyecta a 24 fotogramas por segundo en el cine y a 25 en la televisión y el video.
+    Separador
       .col-4.col-lg-3.offset-4.offset-lg-0
         figure  
           img(src="@/assets/curso/86.svg", alt="Texto que describa la imagen")
-    .titulo-sexto.color-primario
+    .titulo-sexto.color-primario(data-aos="fade-right")
           h4.mb-0
             spam.bg--4.p-1
               | Aspectos de la edición de video
     h5 Narrativa audiovisual
     figure.mt-5
-      img(src="@/assets/template/tema-1-91.png", alt="Texto que describa la imagen")
+      img(src="@/assets/curso/89.jpg", alt="Texto que describa la imagen")
     p.mt-5 Las imágenes en movimiento, al igual que las imágenes fijas, asumen el espacio en dos dimensiones y componen la realidad mediante encuadres o planos fijos y puntos de vista o ángulos de visión. Las imágenes en movimiento tienen además la propiedad de trabajar con la dimensión del tiempo.
     p.mt-4 Los elementos narrativos de un producto audiovisual son:
     .row.mt-5
@@ -753,7 +784,8 @@
         .cajon.color-primario.bg-acento-botones-10.p-4.mb-4
           .h4 La toma
           p.mt-4 Es la grabación obtenida de una acción o escena. Es habitual hacer varias tomas de una misma escena utilizando diferentes ángulos de visión o puntos de vista.
-    .titulo-sexto.color-primario
+    Separador
+    .titulo-sexto.color-primario(data-aos="fade-right")
           h4.mb-0
             spam.bg--4.p-1
               | Los planos en movimiento 
@@ -786,7 +818,7 @@
       .col-10.offset-1
         SlyderC(:datos="datosSlyder1")
     Separador
-    .titulo-sexto.color-primario
+    .titulo-sexto.color-primario(data-aos="fade-right")
           h4.mb-0
             spam.bg--4.p-1
               | Proceso de edición del video
@@ -805,7 +837,7 @@
           img(src="@/assets/curso/87.jpg", alt="Texto que describa la imagen")
     .row.mt-5
       .col-10.col-lg-8.offset-1.offset-lg-2
-        .bloque-texto-a.color-primario-invertido.p-4.p-md-3.mt-4 
+        .bloque-texto-a.color-primario-invertido.azul--1.p-4.p-md-3.mt-4(data-aos="zoom-in-up") 
           .row.m-0.align-items-center.justify-content-between
             .col-lg-7
               .bloque-texto-a__texto.p-4
@@ -815,7 +847,7 @@
               img(src="@/assets/curso/88.svg", alt="Texto que describa la imagen").w-50.margin-0-auto
     .row.mt-5
       .col-10.offset-1
-        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-4.mt-5
+        .bloque-texto-g.color-primario.azul--2.p-3.p-sm-4.p-md-4.mt-5
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/template/tema-1-104.png')})`}"
           )
@@ -823,7 +855,7 @@
             .h4.d-block.mb-0 Guion técnico
             p.mb-0 Es el mismo documento que se utilizó en la etapa de grabación, pero que en la edición se constituye como un documento clave que consigna el orden en que se insertarán todos los elementos de la narrativa audiovisual; define cómo se une una escena con otra, los tipos de plano que contiene cada escena, las transiciones entre las escenas y las secuencias definidas. Además de las imágenes, consigna también los sonidos de cada escena y otro tipo de elementos gráficos como títulos o imágenes insertadas que contribuyan a dar sentido.
     Separador
-    .titulo-sexto.color-primario
+    .titulo-sexto.color-primario(data-aos="fade-right")
           h4.mb-0
             spam.bg--4.p-1
               | Programas de edición
