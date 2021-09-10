@@ -314,12 +314,12 @@ export default {
         nombre: 'Paulo César Hernández González',
         cargo: 'Experto temático',
         centro:
-          'Centro para la industria de la comunicación gráfica - Regional Distrito Capital',
+          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
       },
       {
         nombre: 'Andrés Felipe Velandia Espitia',
         cargo: 'Revisor metodológico y pedagógico',
-        centro: 'Centro de Diseño y metrología - Regional Distrito Capital',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
       },
       {
         nombre: 'Sandra Patricia Hoyos Sepúlveda',
