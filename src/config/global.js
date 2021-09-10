@@ -301,7 +301,7 @@ export default {
       },
       {
         nombre: 'Jorge Alberto García',
-        cargo: 'Experto Disciplinar',
+        cargo: 'Experto disciplinar',
         centro:
           'Centro Para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
       },
@@ -312,13 +312,13 @@ export default {
       },
       {
         nombre: 'Paulo César Hernández González',
-        cargo: 'Experto Temático',
+        cargo: 'Experto temático',
         centro:
           'Centro para la industria de la comunicación gráfica - Regional Distrito Capital',
       },
       {
         nombre: 'Andrés Felipe Velandia Espitia',
-        cargo: 'Revisor Metodológico y Pedagógico',
+        cargo: 'Revisor metodológico y pedagógico',
         centro: 'Centro de Diseño y metrología - Regional Distrito Capital',
       },
       {
