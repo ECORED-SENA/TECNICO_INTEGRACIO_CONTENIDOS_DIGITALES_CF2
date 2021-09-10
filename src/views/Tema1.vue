@@ -39,7 +39,7 @@
     #t_1_1.titulo-segundo(data-aos="fade-right")
       h2 1.1  Edición de imagen
 
-    p Cuando se habla de edición digital se involucran en el proceso una imagen, un terminal computarizado (equipo de escritorio, portátil, tablet, celular, dispositivo móvil) y un software especializado para tal fin.
+    p Cuando se habla de edición digital se involucran en el proceso una imagen, un terminal computarizado (equipo de escritorio, portátil, <i>tablet</i>, celular, dispositivo móvil) y un software especializado para tal fin.
     p Antes de entrar de lleno en el proceso de edición de la imagen, es necesario hablar de la imagen en sí misma y dejar claras sus características y los tipos de imagen digital, ya que de esta clasificación dependerá su tratamiento:      
       
     .row.justify-content-center.tarjeta.bg--row.p-4.my-5(data-aos="zoom-in-up") 
@@ -57,7 +57,7 @@
                         h4.mb-0
                           spam.bg--4.p-1
                             | Edición de imagen
-                      p Cuando se habla de edición digital se involucran en el proceso una imagen, un terminal computarizado (equipo de escritorio, portátil, tablet, celular, dispositivo móvil) y un <i>software</i> especializado para tal fin.
+                      p Cuando se habla de edición digital se involucran en el proceso una imagen, un terminal computarizado (equipo de escritorio, portátil, <i>tablet</i>, celular, dispositivo móvil) y un <i>software</i> especializado para tal fin.
                         br
                         br
                         |Antes de entrar de lleno en el proceso de edición de la imagen, es necesario hablar de la imagen en sí misma y dejar claras sus características y los tipos de imagen digital, ya que de esta clasificación dependerá su tratamiento: 

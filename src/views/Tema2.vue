@@ -41,11 +41,11 @@
     .row.align-items-center.mb-4
       .col-md-7.mb-4
         LineaTiempoD.color-acento-botones.color-amarillo 
-          p.text-small(numero="1" titulo="Contacto inicial") Incluye la reunión inicial, la definición de objetivos, realización del briefing, definición del alcance y benchmarking.
-          p.text-small(numero="2" titulo="Planificación") Construcción del mapa de navegación, elaboración del wireframe y definición de UX.
+          p.text-small(numero="1" titulo="Contacto inicial") Incluye la reunión inicial, la definición de objetivos, realización del <i>briefing</i>, definición del alcance y <i>benchmarking</i>.
+          p.text-small(numero="2" titulo="Planificación") Construcción del mapa de navegación, elaboración del <i>wireframe</i> y definición de UX.
           p.text-small(numero="3" titulo="Concepto") Elaboración del esquema de contenidos.
-          p.text-small(numero="4" titulo="Diseño") Inclusión de elementos visuales y realización de mockups.
-          p.text-small(numero="5" titulo="Desarrollo") Definición del CMS, lenguajes de programación, maquetación de wireframes, velocidad, compatibilidad con dispositivos móviles, pruebas, Google Analytics y searc console.
+          p.text-small(numero="4" titulo="Diseño") Inclusión de elementos visuales y realización de <i>mockups</i>.
+          p.text-small(numero="5" titulo="Desarrollo") Definición del CMS, lenguajes de programación, maquetación de <i>wireframes</i>, velocidad, compatibilidad con dispositivos móviles, pruebas, Google Analytics y searc console.
           p.text-small(numero="6" titulo="Lanzamiento") Refinamiento e indexación en los motores de búsqueda.
       .col-md-4.mb-4
         img.p-md-5(src="@/assets/curso/tema2-1-img2.svg", alt="Imagen decorativa")
@@ -81,10 +81,10 @@
       .col-md-8.borde.m-0.py-5
         p El diseño y la arquitectura de información de las páginas web son “el resultado de la actividad de clasificar, describir, estructurar y etiquetar los contenidos del sitio”. 
           strong (Leyva, Alarcón, Barrera & Ortegón, 2017)
-        p Es así como la arquitectura <i>web</i> incluye pensar en sí el resultado final será un sitio que pueda resolver las necesidades de negocios y servir mejor a las necesidades de los clientes. El arquitecto <i>web</i> diseña y coordina el desarrollo de sitios <i>web</i>, ya que estos son una compleja integración de distintos sistemas (bases de datos, servidores, redes, componentes de backup y seguridad, etc.)
+        p Es así como la arquitectura <i>web</i> incluye pensar en sí el resultado final será un sitio que pueda resolver las necesidades de negocios y servir mejor a las necesidades de los clientes. El arquitecto <i>web</i> diseña y coordina el desarrollo de sitios <i>web</i>, ya que estos son una compleja integración de distintos sistemas (bases de datos, servidores, redes, componentes de <i>backup</i> y seguridad, etc.)
           br
           br 
-          | Las piezas esenciales de la arquitectura <i>web</i> son principalmente: servidores, bases de datos, redes, HTML, componentes de backup y seguridad, inteligencia de contenidos <i>web</i>, organización de componentes y organización de las llamadas a las páginas o interlinking.  
+          | Las piezas esenciales de la arquitectura <i>web</i> son principalmente: servidores, bases de datos, redes, HTML, componentes de <i>backup</i> y seguridad, inteligencia de contenidos <i>web</i>, organización de componentes y organización de las llamadas a las páginas o <i>interlinking</i>.  
 
     p.mb-4 Por su parte la diagramación es la representación de la arquitectura de los contenidos que tendrá un producto digital y las relaciones entre dichos contenidos. La representación se ha usado desde los comienzos del diseño de <i>software</i>, en forma de organigramas, diagramas de flujo de datos, árboles de decisión, etc. 
 
@@ -95,7 +95,7 @@
         img.px-lg-5.imagen_flotante_1.d-none.d-lg-block.d-md-block(src="@/assets/curso/tema2-2-img3.svg", alt="Imagen decorativa") 
       .col-md-8
         p Al evolucionar las interfaces gráficas de usuario, las labores de representación se ampliaron con los llamados guiones de navegación y guiones de interacción, los cuales consistían en diagramas que representan el funcionamiento de los productos electrónicos que se generaban en ese momento. 
-        p Hay que señalar que durante el proceso de arquitectura de Información se usan otras formas de representación, con diferentes objetivos. Por ejemplo, en la aplicación de la técnica de Card Sorting se pueden generar dendrogramas y gráficos de escalamiento multidimensional; otro ejemplo serían las representaciones de las estructuras mentales de los usuarios tras una tormenta de ideas (brainstorming); o los organigramas de la empresa por la cual se crea el producto digital. En la siguiente figura se puede ver representado el proceso:
+        p Hay que señalar que durante el proceso de arquitectura de Información se usan otras formas de representación, con diferentes objetivos. Por ejemplo, en la aplicación de la técnica de <i>Card Sorting</i> se pueden generar dendrogramas y gráficos de escalamiento multidimensional; otro ejemplo serían las representaciones de las estructuras mentales de los usuarios tras una tormenta de ideas (<i>brainstorming</i>); o los organigramas de la empresa por la cual se crea el producto digital. En la siguiente figura se puede ver representado el proceso:
 
     .row.justify-content-center
       .col-lg-10.mb-5    
@@ -103,7 +103,7 @@
         p Esquema de la Arquitectura de la información <i>web</i>
         img(src="@/assets/curso/tema2-2-infografia.svg", alt="Esquema de la Arquitectura de la información web") 
 
-    p Los autores angloparlantes, pioneros en los temas del diseño y representación del <i>software</i>, dividen estos diagramas en 2 tipos: Blueprints y Wireframes. (Morville & Rosenfeld, 1998) Como sustituto del término Blueprint a veces se usa el de Architecture Map, que significa Mapa de Arquitectura.
+    p Los autores angloparlantes, pioneros en los temas del diseño y representación del <i>software</i>, dividen estos diagramas en 2 tipos: Blueprints y <i>wireframes</i>. (Morville & Rosenfeld, 1998) Como sustituto del término Blueprint a veces se usa el de Architecture Map, que significa Mapa de Arquitectura.
 
     p.mb-4 Ahora profundizaremos sobre las diferentes formas de representar la arquitectura de información y su respectiva diagramación:
 
@@ -137,10 +137,10 @@
           .col-md-4    
             img(src="@/assets/curso/tema2-2acordeon1.jpg", alt="Prototipos de baja fidelidad o estáticos")
           .col-md-8
-            h4.mb-0 El wireframe 
+            h4.mb-0 El <i>wireframe</i> 
             p De un sitio <i>web</i> es un boceto rápido que puede elaborarse con lápiz y papel y que representa, por medio de recuadros, líneas, trazos, el esquema del contenido, de la interfaz, sistema de navegación y funcionamiento de la página <i>web</i> que se va a diseñar.
             h4.mb-0 Mockup 
-            p en el proceso del diseño <i>web</i> el paso posterior al wireframe es el mockup, que permite tener una idea más clara de cómo se verá el sitio <i>web</i>. Este paso es más visual y se tienen en cuenta las dimensiones, la organización de los elementos, el texto, las imágenes, iconos, logos, etc.  
+            p en el proceso del diseño <i>web</i> el paso posterior al <i>wireframe</i> es el mockup, que permite tener una idea más clara de cómo se verá el sitio <i>web</i>. Este paso es más visual y se tienen en cuenta las dimensiones, la organización de los elementos, el texto, las imágenes, iconos, logos, etc.  
       .row.px-lg-5(titulo="Prototipos de fidelidad intermedia")
         .row
           .col-md-4    
@@ -425,9 +425,9 @@
 
     .row
       .col-md-7.mb-4
-        p El desarrollo tecnológico que viene experimentando la sociedad, ha llevado en pocos años a ampliar los conceptos, herramientas y por supuesto los medios referidos a la internet. Al inicio, los sitios o páginas <i>web</i> estaban disponibles sólo a través de los computadores de escritorio; posteriormente surgen los computadores portátiles, para finalmente dar paso a los dispositivos móviles como Smartphone (teléfonos inteligentes) y Tablet. 
+        p El desarrollo tecnológico que viene experimentando la sociedad, ha llevado en pocos años a ampliar los conceptos, herramientas y por supuesto los medios referidos a la internet. Al inicio, los sitios o páginas <i>web</i> estaban disponibles sólo a través de los computadores de escritorio; posteriormente surgen los computadores portátiles, para finalmente dar paso a los dispositivos móviles como <i>Smartphone</i> (teléfonos inteligentes) y <i>Tablet</i>. 
 
-        p En este proceso de transformación y especialización surge el concepto de diseño <i>web</i> responsive o adaptativo que consiste en la aplicación de una técnica de diseño <i>web</i> que busca la correcta visualización de una misma página en distintos dispositivos, como ordenadores de escritorio y móviles pasando por Tablet.
+        p En este proceso de transformación y especialización surge el concepto de diseño <i>web</i> <i>responsive</i> o adaptativo que consiste en la aplicación de una técnica de diseño <i>web</i> que busca la correcta visualización de una misma página en distintos dispositivos, como ordenadores de escritorio y móviles pasando por <i>Tablet</i>.
 
         p En la siguiente figura se puede observar que este diseño no consiste en conseguir que se vea lo mismo en todos los dispositivos:
       .col-md-5.mb-4
@@ -435,8 +435,8 @@
 
     .row.justify-content-center
       .col-lg-10.mb-5    
-        h5 Figura 2
-        p Diseño responsive
+        h5 Figura 3
+        p Diseño <i>responsive</i>
         img(src="@/assets/curso/tema2-4-figura.jpg", alt="Diseño responsive")
 
     p De lo que se trata es de redimensionar y colocar los elementos que tendrá la <i>web</i>, de forma que se adapten al ancho de cada dispositivo permitiendo una correcta visualización y una mejor experiencia de usuario. Se caracteriza porque los layouts (contenidos) e imágenes son fluidos y se usa código media-queries de CSS3.
@@ -445,11 +445,11 @@
 
 
     .titulo-sexto.color-amarillo-fuerte-tercer.mb-4(data-aos="fade-right") 
-      h3.mb-0 La <i>web</i> responsive
+      h3.mb-0 La <i>web</i> <i>responsive</i>
 
     img.mb-4(src="@/assets/curso/tema2-4-a-img1.jpg", alt="La web responsive")
 
-    p Además de la correcta visualización y navegación, las páginas <i>web</i> deben adaptarse a determinaciones externas que afectan su funcionamiento en los servidores, buscadores, navegadores, etc. Tal es el caso y resulta importante mencionar, que Google, el mayor buscador de Internet, ha actualizado el sistema de calificación de sitios <i>web</i> para proporcionar mejores resultados de búsqueda a los usuarios que usan móviles. Dicho de otra manera, si una página <i>web</i> no es responsive, podría ser excluida de los resultados de búsqueda móvil de Google o clasificarse más bajo en SERP.
+    p Además de la correcta visualización y navegación, las páginas <i>web</i> deben adaptarse a determinaciones externas que afectan su funcionamiento en los servidores, buscadores, navegadores, etc. Tal es el caso y resulta importante mencionar, que Google, el mayor buscador de Internet, ha actualizado el sistema de calificación de sitios <i>web</i> para proporcionar mejores resultados de búsqueda a los usuarios que usan móviles. Dicho de otra manera, si una página <i>web</i> no es <i>responsive</i>, podría ser excluida de los resultados de búsqueda móvil de Google o clasificarse más bajo en SERP.
 
     p.mb-5 Con la llegada del teléfono inteligente el mundo cambió, y las páginas <i>web</i> también; algunas cosas se volvieron más prácticas, así como también, las páginas <i>web</i>. Las personas tienen conexión y acceden a la red hoy día en cualquier momento y en cualquier lugar. Por tanto, tener un sitio <i>web</i> optimizado para dispositivos móviles expande todas las posibilidades y abre la puerta a una audiencia más grande. De acuerdo a 
       strong Shum (2021): 
@@ -457,7 +457,7 @@
 
 
     .titulo-sexto.color-amarillo-fuerte-tercer.mb-4(data-aos="fade-right") 
-      h3.mb-0 Ventajas de tener un sitio <i>web</i> responsive 
+      h3.mb-0 Ventajas de tener un sitio <i>web</i> <i>responsive</i> 
 
     .row.justify-content-center
       .col-md-10
@@ -467,23 +467,23 @@
               img.px-md-4(src="@/assets/curso/tema2-4-b-img1.svg", alt="Ventajas de tener un sitio web responsive")
             .col-lg-8.mb-4.mb-lg-0
               .bloque-texto-a__texto.p-4
-                p Según el sitio <i>web</i> Hostinger Tutoriales las ventajas de incorporar el diseño responsive se materializan en las estrategias del marketing digital y los resultados de estas.
+                p Según el sitio <i>web</i> Hostinger Tutoriales las ventajas de incorporar el diseño <i>responsive</i> se materializan en las estrategias del marketing digital y los resultados de estas.
 
     .row.mt-4
       .col-10.col-lg-8.offset-1.offset-lg-2
         .cajon.color-acento-contenido.bg-azul1.p-4.mb-4
           .h4 Mejor SEO
-          p.mt-4 El diseño del sitio responsive utiliza la misma URL y HTML, independientemente del dispositivo utilizado para acceder a la página. Esta configuración permite a Google explorar, indexar y administrar el contenido del sitio de manera más fácil y eficiente. Como resultado, el sitio <i>web</i> tendrá una mejor calidad de SEO (posicionamiento en buscadores u optimización de motores de búsqueda que arroja resultados orgánicos de los diferentes buscadores)
+          p.mt-4 El diseño del sitio <i>responsive</i> utiliza la misma URL y HTML, independientemente del dispositivo utilizado para acceder a la página. Esta configuración permite a Google explorar, indexar y administrar el contenido del sitio de manera más fácil y eficiente. Como resultado, el sitio <i>web</i> tendrá una mejor calidad de SEO (posicionamiento en buscadores u optimización de motores de búsqueda que arroja resultados orgánicos de los diferentes buscadores).
     .row.mt-4
       .col-10.col-lg-8.offset-1.offset-lg-2
         .cajon.color-acento-contenido.bg-azul2.p-4.mb-4
           .h4 No es necesario crear un nuevo diseño
-          p.mt-4 Los sitios <i>web</i> responsive no necesitan una nueva apariencia o diseño para dispositivos móviles. En otras palabras, la visualización del sitio <i>web</i> seguirá siendo la misma, aunque se acceda desde varios tipos diferentes de dispositivos. Al no tener que crear dos diseños de sitios <i>web</i>, se puede ahorrar mucho tiempo y energía.
+          p.mt-4 Los sitios <i>web</i> <i>responsive</i> no necesitan una nueva apariencia o diseño para dispositivos móviles. En otras palabras, la visualización del sitio <i>web</i> seguirá siendo la misma, aunque se acceda desde varios tipos diferentes de dispositivos. Al no tener que crear dos diseños de sitios <i>web</i>, se puede ahorrar mucho tiempo y energía.
     .row.mt-4
       .col-10.col-lg-8.offset-1.offset-lg-2
         .cajon.color-acento-contenido.bg-azul3.p-4.mb-4
           .h4 Más fácil de administrar y rentable
-          p.mt-4 Un sitio <i>web</i> responsive es fácil de administrar y desarrollar. Todas las actualizaciones que realices aparecerán en cada dispositivo que acceda al sitio <i>web</i>, no hay diferencia en el contenido que aparece tanto en la PC, computadora portátil o teléfonos inteligentes. Además, los costos operativos de un sitio <i>web</i> receptivo son más bajos, ya que no es necesario desarrollar sitios <i>web</i> para PC y para dispositivos móviles por separado.
+          p.mt-4 Un sitio <i>web</i> <i>responsive</i> es fácil de administrar y desarrollar. Todas las actualizaciones que realices aparecerán en cada dispositivo que acceda al sitio <i>web</i>, no hay diferencia en el contenido que aparece tanto en la PC, computadora portátil o teléfonos inteligentes. Además, los costos operativos de un sitio <i>web</i> receptivo son más bajos, ya que no es necesario desarrollar sitios <i>web</i> para PC y para dispositivos móviles por separado.
 
 </template>
 
