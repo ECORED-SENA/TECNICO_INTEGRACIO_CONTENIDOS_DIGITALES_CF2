@@ -748,7 +748,7 @@
             | Aplicación en forma de estudio de sonido destinado a la edición de audio digital de Adobe Systems Incorporated que permite un entorno de edición mezclado de ondas multipista.
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/Kr0Ejw0fSP4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen) 
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/_RTfWHoFcZE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen) 
     Separador 
     #t_1_3.titulo-segundo(data-aos="fade-right")
       h2 1.3  Edición de video 
