@@ -14,7 +14,7 @@
         figure
           img(src="@/assets/curso/1.svg", alt="Texto que describa la imagen")
       .col-12.col-lg-7
-        p Es común hablar de edición y montaje como el mismo proceso técnico, ya que la palabra montaje, del francés montage, hace referencia a montar, poner encima; pero para los teóricos del lenguaje audiovisual, el montaje tiene que ver con un proceso narrativo, mientras que la edición contempla un proceso de tipo técnico. De esta manera, lo que se refiere a la composición de mensajes o significados a través de elementos audiovisuales se conoce como montaje audiovisual, que es el paso técnico y narrativo último del producto audiovisual, aunque viene definido previamente en la elaboración del guion.
+        p Es común hablar de edición y montaje como el mismo proceso técnico, ya que la palabra montaje, del francés #[i montage], hace referencia a montar, poner encima; pero para los teóricos del lenguaje audiovisual, el montaje tiene que ver con un proceso narrativo, mientras que la edición contempla un proceso de tipo técnico. De esta manera, lo que se refiere a la composición de mensajes o significados a través de elementos audiovisuales se conoce como montaje audiovisual, que es el paso técnico y narrativo último del producto audiovisual, aunque viene definido previamente en la elaboración del guion.
         p.mt-3 En todo caso, para desarrollar los temas necesarios en este apartado, se deben considerar las dos definiciones, porque como es sabido, en lo que respecta al tratamiento de imágenes fijas, lo común es hablar de “edición de imágenes”, mientras que montaje fotográfico o fotomontaje se refiere a un producto de la edición. 
     p.mt-4 Por consiguiente, a continuación, se hace un acercamiento frente a las definiciones: 
     Separador
@@ -38,8 +38,11 @@
     Separador
     #t_1_1.titulo-segundo(data-aos="fade-right")
       h2 1.1  Edición de imagen
+
+    p Cuando se habla de edición digital se involucran en el proceso una imagen, un terminal computarizado (equipo de escritorio, portátil, tablet, celular, dispositivo móvil) y un software especializado para tal fin.
+    p Antes de entrar de lleno en el proceso de edición de la imagen, es necesario hablar de la imagen en sí misma y dejar claras sus características y los tipos de imagen digital, ya que de esta clasificación dependerá su tratamiento:      
       
-    .row.justify-content-center.tarjeta.bg--row.p-4.mb-5(data-aos="zoom-in-up") 
+    .row.justify-content-center.tarjeta.bg--row.p-4.my-5(data-aos="zoom-in-up") 
       .col-11
         TabsC.color-primario.mb-5
           .py-3.py-md-4(titulo="Inicio")
@@ -54,7 +57,7 @@
                         h4.mb-0
                           spam.bg--4.p-1
                             | Edición de imagen
-                      p Cuando se habla de edición digital se involucran en el proceso una imagen, un terminal computarizado (equipo de escritorio, portátil, tablet, celular, dispositivo móvil) y un software especializado para tal fin.
+                      p Cuando se habla de edición digital se involucran en el proceso una imagen, un terminal computarizado (equipo de escritorio, portátil, tablet, celular, dispositivo móvil) y un <i>software</i> especializado para tal fin.
                         br
                         br
                         |Antes de entrar de lleno en el proceso de edición de la imagen, es necesario hablar de la imagen en sí misma y dejar claras sus características y los tipos de imagen digital, ya que de esta clasificación dependerá su tratamiento: 
@@ -98,7 +101,7 @@
                         br
                         |Se define que como una 
                         b imagen digital o gráfico digital, 
-                        |la cual es representada de manera bidimensional , a partir de una imagen de una matriz numérica, frecuentemente en binario unos y ceros; esta se almacena en una memoria informática para luego ser interpretada por un sistema informático y que se transforma en una imagen visible a través de la pantalla e imprimible a través de cualquier dispositivo de salida.
+                        |la cual es representada de manera bidimensional, a partir de una imagen de una matriz numérica, frecuentemente en binario unos y ceros; esta se almacena en una memoria informática para luego ser interpretada por un sistema informático y que se transforma en una imagen visible a través de la pantalla e imprimible a través de cualquier dispositivo de salida.
           .py-3.py-md-4(titulo="Tipos de imágenes digitales")
             .titulo-sexto.color-primario(data-aos="fade-right")
               h4.mb-0
@@ -112,12 +115,12 @@
                   p Son las captadas del mundo real a través de dispositivos digitales; según Ordóñez (2005):
                     br
                     br
-                    |Es una estructura de datos que representa una rejilla rectangular de pixeles o puntos de color conocida como raster, la cual puede visualizarse en un monitor de computadora, papel u otros dispositivos de representación. Este tipo de imágenes se obtiene de medios como el escáner o las cámaras digitales; su representación en pantalla es a través de la unidad mínima denominada pixel, que proviene del inglés picture element. Un pixel es la menor unidad en que se descompone una imagen digital, ya sea una fotografía, fotograma de video o gráfico. Un pixel es un concepto inmaterial que no tiene una medida concreta.
+                    |Es una #[b estructura de datos que representa una rejilla rectangular de píxeles o puntos de color] conocida como <i>raster</i>, la cual puede visualizarse en un monitor de computadora, papel u otros dispositivos de representación. Este tipo de imágenes se obtiene de medios como el escáner o las cámaras digitales; su representación en pantalla es a través de la unidad mínima denominada píxel, que proviene del inglés <i>picture element</i>. Un píxel es la menor unidad en que se descompone una imagen digital, ya sea una fotografía, fotograma de video o gráfico. Un píxel es un concepto inmaterial que no tiene una medida concreta.
                 .col-lg-4: img(src="@/assets/curso/16.jpg")
               .row
                 .col-lg-8
                   h4 Imágenes vectoriales
-                  p Son las creadas desde su inicio a través de un software que, mediante cálculos matemáticos y coordenadas sobre los ejes “X” y “Y” en la pantalla, describen posiciones de puntos trazados líneas curvas o rectas que se generan como objetos independientes, por lo que después se pueden modificar fácilmente sin que por ello los demás componentes del dibujo se vean modificados. En los mapas de bits lo que ocurre es que, al incluir un elemento en la imagen, éste queda automáticamente incrustado y no puede volver a editarse de manera independiente. Las vectoriales no necesitan mucho espacio de almacenamiento y son independientes de la resolución, ya que no dependen de una retícula determinada. 
+                  p Son las creadas desde su inicio a través de un <i>software</i> que, mediante cálculos matemáticos y coordenadas sobre los ejes “X” y “Y” en la pantalla, describen posiciones de puntos trazados líneas curvas o rectas que se generan como objetos independientes, por lo que después se pueden modificar fácilmente sin que por ello los demás componentes del dibujo se vean modificados. En los mapas de bits lo que ocurre es que, al incluir un elemento en la imagen, este queda automáticamente incrustado y no puede volver a editarse de manera independiente. Las vectoriales no necesitan mucho espacio de almacenamiento y son independientes de la resolución, ya que no dependen de una retícula determinada. 
                     br
                     br
                     |Pese a que presentan características distintas, cada día es más común que ambos tipos de imágenes se vinculen a través de programas de tratamiento de imágenes.
@@ -138,11 +141,15 @@
             SlyderE(indicadores="centro").mb-5
               div
                 .tarjeta.tarjeta--azul.p-4.mb-5.mb-lg-5
-                      .titulo-sexto.color-primario(data-aos="fade-right")
-                        h4.mb-0
-                          spam.bg--4.p-1
-                            | Formatos
-                      p Se refieren a la forma codificada que adquieren las imágenes al ser almacenadas en un dispositivo. En realidad se trata de cómo se almacenan digitalmente los píxeles que componen las imágenes digitales de mapa de bits o vectores. Cada formato cuenta con su propia metodología para almacenar información de la imagen digital y cada uno tiene fortalezas, pero también desventajas. El formato depende de las características, la calidad y el uso final del nuevo archivo. 
+                  .titulo-sexto.color-primario(data-aos="fade-right")
+                    h4.mb-0
+                      spam.bg--4.p-1
+                        | Formatos
+                  p Se refieren a la forma codificada que adquieren las imágenes al ser almacenadas en un dispositivo. En realidad se trata de cómo se almacenan digitalmente los píxeles que componen las imágenes digitales de mapa de bits o vectores. Cada formato cuenta con su propia metodología para almacenar información de la imagen digital y cada uno tiene fortalezas, pero también desventajas. El formato depende de las características, la calidad y el uso final del nuevo archivo. 
+                .titulo-sexto.color-primario.mt-5(data-aos="fade-right")
+                  h4.mb-0
+                    spam.bg--4.p-1
+                      | Formatos para mapa de bits 
                 .tarjeta.bg--1.p-4
                   SlyderA
                     .row.p-4.align-items-center.justify-content-center
@@ -150,7 +157,7 @@
                         figure
                           img(src="@/assets/curso/19.svg")           
                       .col-md-8.mb-4.mb-md-0
-                        p.text-white BMP: desarrollado para sistemas operativos Microsoft como formato de almacenamiento para mapas de bits con una profundidad de color de hasta 24 bits por píxel. Los archivos en este formato son relativamente grandes, por lo que no es adecuado para ser usado en páginas web.
+                        p.text-white BMP: desarrollado para sistemas operativos Microsoft como formato de almacenamiento para mapas de bits con una profundidad de color de hasta 24 bits por píxel. Los archivos en este formato son relativamente grandes, por lo que no es adecuado para ser usado en páginas <i>web</i>.
                     .row.p-4.align-items-center.justify-content-center
                       .col-md-2
                         figure
@@ -174,7 +181,7 @@
                         figure
                           img(src="@/assets/curso/23.svg")           
                       .col-md-8.mb-4.mb-md-0
-                        p.text-white PSD: del inglés “Photoshop Document”, es un formato nativo de proyectos gráficos desarrollados con Photoshop. Guarda la información relacionada con las capas, los canales, la historia, lo que permite la posterior edición de los mismos. Las imágenes en formato PSD solo pueden abrirse y editarse con Adobe Photoshop. Las imágenes resultantes son de tipo pixel. 
+                        p.text-white PSD: del inglés “Photoshop Document”, es un formato nativo de proyectos gráficos desarrollados con Photoshop. Guarda la información relacionada con las capas, los canales, la historia, lo que permite la posterior edición de los mismos. Las imágenes en formato PSD solo pueden abrirse y editarse con Adobe Photoshop. Las imágenes resultantes son de tipo píxel. 
                     .row.p-4.align-items-center.justify-content-center
                       .col-md-2
                         figure
@@ -186,7 +193,7 @@
                         figure
                           img(src="@/assets/curso/25.svg")           
                       .col-md-8.mb-4.mb-md-0
-                        p.text-white PDF: del inglés Portable Document Format. Es un tipo de archivo universal, que funciona independientemente del software, del sistema operativo, de la resolución, de la versión, entre otros; usados para la creación del archivo original. Este formato permite el almacenamiento de archivos bitmap, vector, texto, adicionalmente soporta archivos que pueden tener diversas páginas.
+                        p.text-white PDF: del inglés Portable Document Format. Es un tipo de archivo universal, que funciona independientemente del <i>software</i>, del sistema operativo, de la resolución, de la versión, entre otros; usados para la creación del archivo original. Este formato permite el almacenamiento de archivos bitmap, vector, texto, adicionalmente soporta archivos que pueden tener diversas páginas.
                     .row.p-4.align-items-center.justify-content-center
                       .col-md-2
                         figure
@@ -204,7 +211,7 @@
                         figure
                           img(src="@/assets/curso/28.svg")           
                       .col-md-8.mb-4.mb-md-0
-                        p.text-white AI: es la extensión nativa de los archivos generados desde Adobe Illustrator, que se clasifican como archivos de imágenes vectoriales. Las imágenes vectoriales son las más indicadas para usar en páginas web por el peso final de ellas. Una ventaja de la imagen vectorial es que se pueden escalar sin que pierdan calidad, al tiempo que requiere menos espacio de almacenamiento.
+                        p.text-white AI: es la extensión nativa de los archivos generados desde Adobe Illustrator, que se clasifican como archivos de imágenes vectoriales. Las imágenes vectoriales son las más indicadas para usar en páginas <i>web</i> por el peso final de ellas. Una ventaja de la imagen vectorial es que se pueden escalar sin que pierdan calidad, al tiempo que requiere menos espacio de almacenamiento.
                     .row.p-4.align-items-center.justify-content-center
                       .col-md-2
                         figure
@@ -239,6 +246,8 @@
                           a.boton.color-acento-botones(:href="('https://www.youtube.com/watch?v=9i_0cLdJE-s&ab_channel=HeyJaime')" target="_blank")
                             span Enlace web
                             i.fas.fa-link
+
+
           .py-3.py-md-4(titulo="Resolución de la imagen")
             SlyderE(indicadores="centro").mb-5
               div
@@ -252,7 +261,7 @@
                         br
                         |La resolución se refiere a la capacidad de una tecnología o un mecanismo para reflejar los detalles de una imagen. A mayor resolución, mejor calidad de imagen, pero también más tamaño y peso. 
                         br
-                        |Si se divide una imagen en pocos píxeles, se podrá codificar con poca información, pero seguramente perderá mucho detalle, por lo que se dice que tiene poca resolución. Si se divide en muchas más partes, éstas llegarán a ser tan pequeñas que no se podrán  distinguir. La visión de la imagen será mucho mejor y más detallada, pero también mucho más costosa en bits al ser más grande y más pesada. 
+                        |Si se divide una imagen en pocos píxeles, se podrá codificar con poca información, pero seguramente perderá mucho detalle, por lo que se dice que tiene poca resolución. Si se divide en muchas más partes, estas llegarán a ser tan pequeñas que no se podrán  distinguir. La visión de la imagen será mucho mejor y más detallada, pero también mucho más costosa en bits al ser más grande y más pesada. 
                 .row.p-4.align-items-center.justify-content-center
                   .col-lg-10
                     figure
@@ -267,7 +276,7 @@
                     p.mb-0 El tamaño y la frecuencia de los píxeles siempre son elección del diseñador, quien deberá tener en cuenta que el concepto de resolución hace referencia a tres tipos de tamaño:  en píxeles, el informático (pantalla) y el superficial. El tamaño en píxeles habla, como ya se ha dicho, de en cuántas filas y columnas se divide la imagen, o de cuál es el número total de píxeles. 
                       br
                       br
-                      |El tamaño informático se cuenta en unidades de información como bytes, kilobytes o megabytes, y depende del número de píxeles y de la cantidad de bytes que gastamos para definir cada píxel. Tamaño de salida es lo que ocupará la foto si se imprime; como los píxeles son información numérica, es el editor quien decide, cuántos píxeles quiere imprimir en cada centímetro o pulgada de papel.
+                      |El tamaño informático se cuenta en unidades de información como <i>bytes</i>, <i>kilobytes</i> o <i>megabytes</i>, y depende del número de píxeles y de la cantidad de <i>bytes</i> que gastamos para definir cada píxel. Tamaño de salida es lo que ocupará la foto si se imprime; como los píxeles son información numérica, es el editor quien decide, cuántos píxeles quiere imprimir en cada centímetro o pulgada de papel.
                       br
                       br
                       |En conclusión, tal y como lo expresa Fernández (2005):
@@ -278,7 +287,7 @@
                       .bloque-texto-b__texto
                         i.fas.fa-quote-left
                         h5.mb-0 La resolución de una imagen digital se expresa multiplicando su anchura por la altura en píxeles. Por ejemplo la imagen de 1200 x 1200 píxeles = 1.440.000 píxeles, expresado en Mp (megapíxel) es igual a 1,4 Mp. Conviene tener en cuenta que 1 Megapíxeles = 1024 píxeles.
-                        i.fas.fa-quote-right
+                        i.fas.fa-quote-right                       
           .py-3.py-md-4(titulo="Modos de color")
             SlyderE(indicadores="centro").mb-5
               div
@@ -291,13 +300,13 @@
                       )
                       .bloque-texto-g__texto.p-4.w-90.text-small
                         h4.d-block Modos de color
-                        p.mb-0 El color puede entenderse en términos técnicos como la profundidad de color en la imagen, es decir, la cantidad de bits de información necesarios para representar el color de un pixel en una imagen digital.  En términos generales se alude al concepto de modelo de color en la imagen, que describe los colores que pueden verse en las imágenes digitales e impresas. Se pueden diferenciar tres modelos de color para trabajar en multimedia: modelo RGB, modelo CMYK y modelo HSB.
+                        p.mb-0 El color puede entenderse en términos técnicos como la profundidad de color en la imagen, es decir, la cantidad de bits de información necesarios para representar el color de un píxel en una imagen digital.  En términos generales se alude al concepto de modelo de color en la imagen, que describe los colores que pueden verse en las imágenes digitales e impresas. Se pueden diferenciar tres modelos de color para trabajar en multimedia: modelo RGB, modelo CMYK y modelo HSB.
               div 
                 .row.mt-3
                   .col-4
                     figure
                       img(src="@/assets/template/tema-1-32.png", alt="Texto que describa la imagen")
-                    p.mt-4 #[strong Color CMYK:] sse refiere a los colores Cian, Magenta, Yellow y Black, que son los colores que se usan en impresión.
+                    p.mt-4 #[strong Color CMYK:] se refiere a los colores Cian, Magenta, Yellow y Black, que son los colores que se usan en impresión.
                   .col-4
                     figure
                       img(src="@/assets/template/tema-1-33.png", alt="Texto que describa la imagen")
@@ -327,7 +336,7 @@
           | Definición de edición de la imagen
     .contenedor-jux.d-flex.justify-content-center
       <iframe frameborder="0" class="juxtapose" width="80%" height="722" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=dfb199c6-11d7-11ec-abb7-b9a7ff2ee17c"></iframe>
-    p.mb-5 “Es la manipulación, a través de programas de edición gráfica, de imágenes capturadas o previamente diseñadas, con la intención de reforzar conceptos o mensajes mediante la modificación del color, formas, composición, contrastes, estilo, etcétera. La edición para hacer collages o mejorar la calidad de la imagen, es también un recurso de gran valor en publicidad; gracias a ello, se pueden exagerar o disminuir rasgos o elementos de todo tipo” (Viveros, 2005) El programa donde se hace el tratamiento es un editor de imágenes que ofrece opciones de edición, herramientas, efectos y modificación en el formato al guardar el archivo.
+    p.mb-5 “Es la manipulación, a través de programas de edición gráfica, de imágenes capturadas o previamente diseñadas, con la intención de reforzar conceptos o mensajes mediante la modificación del color, formas, composición, contrastes, estilo, etcétera. La edición para hacer <i>collages</i> o mejorar la calidad de la imagen, es también un recurso de gran valor en publicidad; gracias a ello, se pueden exagerar o disminuir rasgos o elementos de todo tipo” (Viveros, 2005) El programa donde se hace el tratamiento es un editor de imágenes que ofrece opciones de edición, herramientas, efectos y modificación en el formato al guardar el archivo.
     Separador
     .titulo-sexto.color-primario(data-aos="fade-right")
       h4.mb-0
@@ -357,11 +366,11 @@
           figure
             img(src='@/assets/curso/38.jpg', alt='Texto que describa la imagen')
         .col-md-8.mb-4.mb-md-0
-          p Pese a ser un proceso técnico que involucra el conocimiento de las herramientas del software que se use, es también un proceso creativo, puesto que el retoque puede llevar implícito significados que se quieren compartir con el receptor.  El retoque da la opción de manipular imágenes o fotografías  y  permite alterar el escenario, la luz, el color y la percepción de forma variada e ingeniosa para construir  una nueva imagen.
+          p Pese a ser un proceso técnico que involucra el conocimiento de las herramientas del <i>software</i> que se use, es también un proceso creativo, puesto que el retoque puede llevar implícito significados que se quieren compartir con el receptor.  El retoque da la opción de manipular imágenes o fotografías  y  permite alterar el escenario, la luz, el color y la percepción de forma variada e ingeniosa para construir  una nueva imagen.
     Separador
     AcordeonC.mb-5(tipo="a" clase-tarjeta="tarjeta")(data-aos="zoom-in-up") 
       .row(titulo="Herramientas para la edición")
-        p.mb-5 Tienen que ver con los software de tratamiento de imagen. El mercado ofrece múltiples opciones y se clasifican entre los editores para computador, celulares y editores online. 
+        p.mb-5 Tienen que ver con los <i>software</i> de tratamiento de imagen. El mercado ofrece múltiples opciones y se clasifican entre los editores para computador, celulares y editores online. 
         .row.justify-content-center.align-items-end
           .col-lg-2
             .iconos-hover.h-100
@@ -400,7 +409,7 @@
               hr.mt-0
               h5.text-center Freepik
       .row(titulo="Para computador")
-        p.mb-5 suelen tener mayores funcionalidades, lo que se traduce en mejor desempeño, pero también ocupan espacio en el disco duro ya que son mucho más completos. Normalmente requieren conocimientos de la herramienta, incluso de diseño, así que se necesita conocimiento y experiencia en su manejo Algunos editores de fotos para computadora son Adobe Photoshop, Corel Draw, Paint.net, GIMP.
+        p.mb-5 Suelen tener mayores funcionalidades, lo que se traduce en mejor desempeño, pero también ocupan espacio en el disco duro ya que son mucho más completos. Normalmente requieren conocimientos de la herramienta, incluso de diseño, así que se necesita conocimiento y experiencia en su manejo Algunos editores de fotos para computadora son Adobe Photoshop, Corel Draw, Paint.net, GIMP.
         .row.mb-5.justify-content-center.align-items-end
           .col-lg-2
             .iconos-hover.h-100
@@ -501,7 +510,7 @@
               hr.mt-0
               h5.text-center Corel Draw
       .row(titulo="Para celulares")
-        p.mb-5 suelen tener mayores funcionalidades, lo que se traduce en mejor desempeño, pero también ocupan espacio en el disco duro ya que son mucho más completos. Normalmente requieren conocimientos de la herramienta, incluso de diseño, así que se necesita conocimiento y experiencia en su manejo Algunos editores de fotos para computadora son Adobe Photoshop, Corel Draw, Paint.net, GIMP.
+        p.mb-5 Se crearon para sistemas operativos como Android e iOS; aunque también necesitan descargarse, sus funciones no necesitan mucho espacio de memoria. Esto los hace más limitados que un software de gran tamaño, pero con las ventajas de modificar una imagen en cualquier momento. Algunos de este tipo son: Photoshop Express, VSCO, Canva, entre otros.
         .row.mb-5.justify-content-center.align-items-end
           .col-lg-2
             .iconos-hover.h-100
@@ -522,7 +531,7 @@
               hr.mt-0
               h5.text-center VSCO
       .row(titulo="Editores online")
-        p.mb-5 no necesitan descargarse en dispositivos y muchos de ellos tienen versiones gratuitas, con funciones limitadas y un poco de publicidad en sus interfaces. Algunos son Canva o Photoshop Express en esta clasificación, además de Photo Fancy y PicMonkey.
+        p.mb-5 No necesitan descargarse en dispositivos y muchos de ellos tienen versiones gratuitas, con funciones limitadas y un poco de publicidad en sus interfaces. Algunos son Canva o Photoshop Express en esta clasificación, además de Photo Fancy y PicMonkey.
         .row.mb-5.justify-content-center.align-items-end
           .col-lg-2
             .iconos-hover.h-100
@@ -535,17 +544,19 @@
         .col-lg-4.mb-4.mb-lg-0: img(src='@/assets/curso/64.svg', alt='Texto que describa la imagen' style='width: 250px').m-auto
         .col-lg-8
           .bloque-texto-a__texto.p-4
+            p A continuación se específica las herramientas gratuitas y con pago: 
+            br
             h5 Gratuitos: 
             p VSCO PicsArtPhoto Lab, Lensa, Photoscape X, Paint.Net, GIMP, Adobe Photoshop Express, Krita, Canva, Pixlr, iPiccy, Fotor, Lensa.
             br
             h5 Pago: 
-            p InPixio Photo Editor, Adobe Photoshop, PaintShop, Pixelmator Pro, PhotoPlus, Lightroom, PhotoDirector, PicMonkey, Ribbet, Mextures, Touch Retouch y SKRWT
+            p InPixio Photo Editor, Adobe Photoshop, PaintShop, píxelmator Pro, PhotoPlus, Lightroom, PhotoDirector, PicMonkey, Ribbet, Mextures, Touch Retouch y SKRWT
     Separador
     #t_1_2.titulo-segundo(data-aos="fade-right")
       h2 1.2  Edición de audio
     .row.mb-5
       .col-lg-6
-        p Hace referencia a la posibilidad de manipular diferentes elementos sonoros, involucrando en el proceso un terminal computarizado y software específico, con el fin de integrar o generar sonidos nuevos o que se adapten a una necesidad específica.
+        p Hace referencia a la posibilidad de manipular diferentes elementos sonoros, involucrando en el proceso un terminal computarizado y <i>software</i> específico, con el fin de integrar o generar sonidos nuevos o que se adapten a una necesidad específica.
           br
           br
           |Un sonido digital suele tener asociados una serie de condiciones y parámetros característicos entre los que se puede destacar: la tendencia a ser dinámicos, su capacidad de interactividad, su condición ubicua y su naturaleza versátil.
@@ -554,7 +565,7 @@
       h4.mb-0
         spam.bg--4.p-1
           | Formatos para la edición de audio 
-    p.mb-5 Ahora es pertinente revisar los formatos de audio y conocer algunos softwares comúnmente utilizados para la edición de este tipo de recursos:
+    p.mb-5 Ahora es pertinente revisar los formatos de audio y conocer algunos <i>softwares</i> comúnmente utilizados para la edición de este tipo de recursos:
       br
       br
       | Según el uso y la utilidad, los formatos de audio se dividen en dos categorías. Una, los que se usan para almacenar archivos de audio en DD, memorias USB o dispositivos que permiten escuchar este tipo de archivos (MP3, WAV, AIFF) y otra los que se usan en servicios de transmisión online (OGG, FLAC, ALAC).
@@ -597,7 +608,7 @@
                 figure
                   img(src="@/assets/curso/71.svg")           
               .col-md-8.mb-4.mb-md-0
-                p AAC: del inglés Advanced Audio Coding, es un formato de compresión con pérdida que está usando Apple como formato principal para los iPods y para su software iTunes. Es la versión de Apple del formato MP3. (Truesdell, 2007, p 516).
+                p AAC: del inglés Advanced Audio Coding, es un formato de compresión con pérdida que está usando Apple como formato principal para los iPods y para su <i>software</i> iTunes. Es la versión de Apple del formato MP3. (Truesdell, 2007, p 516).
             .row.p-4.align-items-center.justify-content-center
               .col-md-2
                 figure
@@ -636,7 +647,7 @@
             h5 Windows
           p
             b Power Sound Editor: 
-            | permite llevar a cabo avanzadas y poderosas tareas a partir de cualquier archivo en audio. Puede usarlo para grabar o editar sus archivos y mezclarlos con otras piezas de sonido
+            | permite llevar a cabo avanzadas y poderosas tareas a partir de cualquier archivo en audio. Puede usarlo para grabar o editar sus archivos y mezclarlos con otras piezas de sonido.
       .col-lg-4
         .tarjeta.bg--4-claro.p-4.h-100
           figure.mb-3.ajuste-img.p-3
@@ -657,7 +668,7 @@
             h5 Windows
           p
             b Music Editor Free:  
-            | software de edición de música, ayuda a registrar y editar música y sonidos, permitiéndole crear o editar sus propias pistas musicales o archivos de audio. Al igual que la mayoría de las herramientas de este tipo permite cortar, copiar y pegar partes de la grabación y, de ser necesario, añadir efectos.
+            | <i>software</i> de edición de música, ayuda a registrar y editar música y sonidos, permitiéndole crear o editar sus propias pistas musicales o archivos de audio. Al igual que la mayoría de las herramientas de este tipo permite cortar, copiar y pegar partes de la grabación y, de ser necesario, añadir efectos.
       .col-lg-4
         .tarjeta.bg--4-claro.p-4.h-100
           figure.mb-3.ajuste-img.p-3
@@ -723,7 +734,7 @@
             h5 Windows y Mac OS X
           p
             b WaveSurfer: 
-            | software de código abierto diseñado pensando en los usuarios: tanto en aquellos que tienen un conocimiento avanzado del tema, como aquellos que apenas están empezando. 
+            | <i>software</i> de código abierto diseñado pensando en los usuarios: tanto en aquellos que tienen un conocimiento avanzado del tema, como aquellos que apenas están empezando. 
       .col-lg-4
         .tarjeta.bg--4-claro.p-4.h-100
           figure.mb-3.ajuste-img.p-1
@@ -737,7 +748,7 @@
             | Aplicación en forma de estudio de sonido destinado a la edición de audio digital de Adobe Systems Incorporated que permite un entorno de edición mezclado de ondas multipista.
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen) 
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/Kr0Ejw0fSP4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen) 
     Separador 
     #t_1_3.titulo-segundo(data-aos="fade-right")
       h2 1.3  Edición de video 
@@ -859,7 +870,7 @@
           h4.mb-0
             spam.bg--4.p-1
               | Programas de edición
-    p.mt-5 Al igual que para las imágenes estáticas, existe una amplia variedad de software con los cuales llevar a cabo el montaje de las imágenes de video. Los software más populares actualmente son los siguientes:
+    p.mt-5 Al igual que para las imágenes estáticas, existe una amplia variedad de <i>software</i> con los cuales llevar a cabo el montaje de las imágenes de video. Los <i>software</i> más populares actualmente son los siguientes:
     .row.mt-5
       .col-10.offset-1
         SlyderD(:datos="datosSlyder2")
@@ -899,7 +910,7 @@ export default {
       {
         titulo: 'Plano americano',
         texto:
-          '“Nació a partir de la necesidad del western, que en el plano medio tenía que incluir la pistola del cowboy. Este plano comprende, entonces, desde la pistola colgada debajo de la cintura hasta la cabeza entera del personaje”. ',
+          '“Nació a partir de la necesidad del western, que en el plano medio tenía que incluir la pistola del <i>cowboy</i>. Este plano comprende, entonces, desde la pistola colgada debajo de la cintura hasta la cabeza entera del personaje”. ',
         imagen: require('@/assets/template/tema-1-98.png'),
       },
       {
@@ -948,13 +959,13 @@ export default {
       },
       {
         titulo: 'Pinnacle Studio (Windows): ',
-        texto: 'Es un software muy intuitivo y fácil de manejar.',
+        texto: 'Es un <i>software</i> muy intuitivo y fácil de manejar.',
         imagen: require('@/assets/template/tema-1-109.png'),
       },
       {
         titulo: 'Sony Vegas Pro (Windows):',
         texto:
-          'Potente software con una estética que sigue la línea de Sony. También tiene una versión llamada Movie Studio para usuarios no tan avanzados.',
+          'Potente <i>software</i> con una estética que sigue la línea de Sony. También tiene una versión llamada Movie Studio para usuarios no tan avanzados.',
         imagen: require('@/assets/template/tema-1-110.png'),
       },
       {

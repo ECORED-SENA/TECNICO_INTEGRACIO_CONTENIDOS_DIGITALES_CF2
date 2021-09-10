@@ -1,8 +1,8 @@
 export default {
   global: {
-    componenteFormativo: 'Producción de contenidos digitales.',
+    componenteFormativo: 'Producción de contenidos digitales',
     descripcionCurso:
-      'La composición de efectos visuales consiste en la creación de productos a partir de la manipulación y combinación de elementos digitales, con el fin de generar piezas que transmitan la sensación de unidad en la imagen resultante, independiente de si es real o no. Este concepto puede aplicarse tanto a imágenes fijas, en movimiento o audiovisuales y páginas web; aprendizajes que serán abordados en el presente componente formativo.',
+      'La composición de efectos visuales consiste en la creación de productos a partir de la manipulación y combinación de elementos digitales, con el fin de generar piezas que transmitan la sensación de unidad en la imagen resultante, independiente de si es real o no. Este concepto puede aplicarse tanto a imágenes fijas, en movimiento o audiovisuales y páginas <i>web</i>; aprendizajes que serán abordados en el presente componente formativo.',
     imagenBannerPrincipal: require('@/assets/curso/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },
@@ -50,25 +50,25 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Creación web',
+        titulo: 'Creación <i>web</i>',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Diseño web',
+            titulo: 'Diseño <i>web</i>',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Arquitectura y diagramación web',
+            titulo: 'Arquitectura y diagramación <i>web</i>',
             hash: 't_2_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: 'Maquetación web',
+            titulo: 'Maquetación <i>web</i>',
             hash: 't_2_3',
           },
           {
@@ -117,12 +117,12 @@ export default {
   referencias: [
     {
       referencia:
-        'Blázquez Nieto, A. (2019). Nuevas Tecnologías Aplicadas a la Vida: Smartphone, Tablet E Internet.',
+        'Blázquez Nieto, A. (2019). Nuevas Tecnologías Aplicadas a la Vida: Smartphone, Tablet E Internet. ',
       link:
         'https://docplayer.es/78951030-Nuevas-tecnologias-aplicadas-a-la-vida-smartphone-tablet-e-internet.html',
     },
     {
-      referencia: 'Equipo 09, EvntosSv.com. (2019). Maquetacion Web.',
+      referencia: 'Equipo 09, EvntosSv.com. (2019). Maquetacion Web. ',
       link: 'https://evntossv.neocities.org/maquetacion.html',
     },
     {
@@ -131,12 +131,12 @@ export default {
       link: '',
     },
     {
-      referencia: 'Fernández. (2005). Imagen Digital.',
+      referencia: 'Fernández. (2005). Imagen Digital. ',
       link:
         'http://comunicacion3unlz.com.ar/wp-content/uploads/2014/07/Imagen-digital.pdf',
     },
     {
-      referencia: 'Garrett, J. J. (2002). ia/recon (Spanish)',
+      referencia: 'Garrett, J. J. (2002). ia/recon (Spanish). ',
       link: 'http://www.jjg.net/ia/recon/spanish.html',
     },
     {
@@ -146,7 +146,7 @@ export default {
     },
     {
       referencia:
-        'Lozano Botache, J. P. (20138). Narraciones cinematográficas: Potencialidades pedagógicas y de investigación cualitativa, desde el cine colombiano [Tesis de doctorado. Universidad del Cauca]. Repositorio Unicauca.',
+        'Lozano Botache, J. P. (20138). Narraciones cinematográficas: Potencialidades pedagógicas y de investigación cualitativa, desde el cine colombiano [Tesis de doctorado. Universidad del Cauca]. Repositorio Unicauca. ',
       link: 'https://bit.ly/3sVtKzL',
     },
     {
@@ -176,11 +176,12 @@ export default {
     },
     {
       referencia:
-        'Real Academia Española: Diccionario de la lengua española, 23.ª ed. [versión 23.4 en línea].',
+        'Real Academia Española: Diccionario de la lengua española, 23.ª ed. [versión 23.4 en línea]. ',
       link: 'https://dle.rae.es',
     },
     {
-      referencia: 'R M. (2014, 2 julio). Los modos de color en diseño gráfico.',
+      referencia:
+        'R M. (2014, 2 julio). Los modos de color en diseño gráfico. ',
       link:
         'https://blog.agencialanave.com/los-modos-de-color-en-diseno-grafico/',
     },
@@ -191,12 +192,12 @@ export default {
     },
     {
       referencia:
-        'Shum, Y. M. (2021). Situación Global Mobile 2020 - 5.190 millones de usuarios únicos.',
+        'Shum, Y. M. (2021). Situación Global Mobile 2020 - 5.190 millones de usuarios únicos. ',
       link: 'https://yiminshum.com/mobile-movil-app-2020/',
     },
     {
       referencia:
-        'Viveros, M. A. T. (2005). Introducción a la Creación de Imágenes Digitales para Multimedia Interactivo.',
+        'Viveros, M. A. T. (2005). Introducción a la Creación de Imágenes Digitales para Multimedia Interactivo. ',
       link:
         'https://programas.cuaed.unam.mx/repositorio/moodle/pluginfile.php/1161/mod_resource/content/1/contenido/index.html',
     },
@@ -204,7 +205,8 @@ export default {
   glosario: [
     {
       termino: 'Buscador',
-      significado: 'Herramienta web que permite ubicar contenidos en la red.',
+      significado:
+        'Herramienta <i>web</i> que permite ubicar contenidos en la red.',
     },
     {
       termino: 'Declaración CSS',
@@ -228,12 +230,12 @@ export default {
     {
       termino: 'HTML',
       significado:
-        'Hypertext Markup Language o lenguaje de marcado de hipertextos. Destinado a simplificar la escritura de documentos estándar. Es la base estructural en la que están diseñadas las páginas de la World Wide Web.',
+        'Hypertext Markup Language o lenguaje de marcado de hipertextos. Destinado a simplificar la escritura de documentos estándar. Es la base estructural en la que están diseñadas las páginas de la World Wide <i>web</i>.',
     },
     {
       termino: 'HTTP',
       significado:
-        'Hypertext Transfer Protocol o protocolo de transferencia de hipertexto. Es el mecanismo de intercambio de información que constituye la base funcional de la World Wide Web.',
+        'Hypertext Transfer Protocol o protocolo de transferencia de hipertexto. Es el mecanismo de intercambio de información que constituye la base funcional de la World Wide <i>web</i>.',
     },
     {
       termino: 'Lenguaje de programación',
@@ -248,12 +250,12 @@ export default {
     {
       termino: 'Navegador',
       significado:
-        'Programa que permite leer documentos en la web y seguir enlaces (links) de documento en documento de hipertexto.',
+        'Programa que permite leer documentos en la <i>web</i> y seguir enlaces (links) de documento en documento de hipertexto.',
     },
     {
       termino: 'WWW',
       significado:
-        'También conocido simplemente como el Web, es uno de los servicios más populares de Internet. Combina texto con gráficos, imágenes, animaciones e incluso música, enlazados entre sí de tal manera que facilita la navegación por la información dispersa en todo Internet.',
+        'También conocido simplemente como el <i>web</i>, es uno de los servicios más populares de Internet. Combina texto con gráficos, imágenes, animaciones e incluso música, enlazados entre sí de tal manera que facilita la navegación por la información dispersa en todo Internet.',
     },
   ],
   complementario: [
@@ -295,24 +297,34 @@ export default {
         nombre: 'Rafael Neftalí Lizcano Reyes',
         cargo: 'Asesor metodológico y pedagógico',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Jorge Alberto García',
         cargo: 'Experto Disciplinar',
         centro:
-          'Regional Distrito Capital – Centro Para la Industria de la Comunicación Gráfica',
+          'Centro Para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Maryuri Agudelo Franco',
+        cargo: 'Diseñadora instruccional',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
       },
       {
         nombre: 'Paulo César Hernández González',
         cargo: 'Experto Temático',
         centro:
-          'Regional Distrito Capital – Centro para la industria de la comunicación gráfica',
+          'Centro para la industria de la comunicación gráfica - Regional Distrito Capital',
       },
       {
         nombre: 'Andrés Felipe Velandia Espitia',
         cargo: 'Revisor Metodológico y Pedagógico',
-        centro: 'Regional Distrito Capital – Centro de Diseño y metrología',
+        centro: 'Centro de Diseño y metrología - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Sandra Patricia Hoyos Sepúlveda',
+        cargo: 'Revisión y corrección de estilo',
+        centro: 'Centro de diseño y Metrología – Regional Distrito Capital',
       },
     ],
     desarrolloProducto: [
@@ -320,29 +332,78 @@ export default {
         nombre: 'Francisco José Lizcano Reyes',
         cargo: 'Responsable del equipo',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Leyson Fabian Castaño Perez',
         cargo: 'Soporte organizacional',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
-        nombre: 'Maryuri Agudelo Franco',
-        cargo: 'Diseñadora Instruccional',
-        centro: 'Regional Distrito Capital – Centro de Diseño y Metrología',
+        nombre: 'Luis Fernando Sarmiento Betancourth',
+        cargo: 'Diseño web',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Sandra Patricia Hoyos Sepúlveda',
-        cargo: 'Revisión y corrección de estilo',
-        centro: 'Centro de diseño y Metrología – Regional Distrito Capital ',
+        nombre: 'Arnulfo Beltrán Mojica',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Andrés Felipe Herrera Roldán',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Daniela Muñoz Bedoya',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Gilberto Junior Rodríguez Rodríguez',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Wilson Andrés Arenales Cáceres',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Zuleidy Maria Ruiz Torres',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+      {
+        nombre: 'Lizeth Karina Manchego Suárez',
+        cargo: 'Desarrollo front-end',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Andrés Mauricio Santaella Ochoa',
+        cargo: 'Soporte front-end',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Yuli Marcela Gómez Tarazona',
+        cargo: 'Validación de diseño y contenido',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
     ],
     gestoresRepositorio: [
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
     ],
   },
