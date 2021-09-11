@@ -746,14 +746,15 @@
           p
             b Adobe Audition:
             | Aplicación en forma de estudio de sonido destinado a la edición de audio digital de Adobe Systems Incorporated que permite un entorno de edición mezclado de ondas multipista.
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/_RTfWHoFcZE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen) 
+
     Separador 
     #t_1_3.titulo-segundo(data-aos="fade-right")
       h2 1.3  Edición de video 
     .contenedor-fondo.p-5.mb-5
       h4 La edición de video requiere de la manipulación de varios elementos, en donde la unión de varias imágenes y la adición de efectos digitales, como música, efectos y textos, posibilitan tener un resultado de un producto listo, pero que requiere de una serie de conocimientos que se amplían en el video relacionado a continuación:
+    figure.mb-5
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/_RTfWHoFcZE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)       
     .titulo-sexto.color-primario(data-aos="fade-right")
       h4.mb-0
         spam.bg--4.p-1
