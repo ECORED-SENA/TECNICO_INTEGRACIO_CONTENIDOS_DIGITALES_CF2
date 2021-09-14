@@ -45,12 +45,12 @@
           p.text-small(numero="2" titulo="Planificación") Construcción del mapa de navegación, elaboración del <i>wireframe</i> y definición de UX.
           p.text-small(numero="3" titulo="Concepto") Elaboración del esquema de contenidos.
           p.text-small(numero="4" titulo="Diseño") Inclusión de elementos visuales y realización de <i>mockups</i>.
-          p.text-small(numero="5" titulo="Desarrollo") Definición del CMS, lenguajes de programación, maquetación de <i>wireframes</i>, velocidad, compatibilidad con dispositivos móviles, pruebas, Google Analytics y searc console.
+          p.text-small(numero="5" titulo="Desarrollo") Definición del CMS, lenguajes de programación, maquetación de <i>wireframes</i>, velocidad, compatibilidad con dispositivos móviles, pruebas, Google Analytics y search console.
           p.text-small(numero="6" titulo="Lanzamiento") Refinamiento e indexación en los motores de búsqueda.
       .col-md-4.mb-4
         img.p-md-5(src="@/assets/curso/tema2-1-img2.svg", alt="Imagen decorativa")
 
-    p.mb-4 En la siguiente figura se puede observar en detalle cual es el proceso global, las etapas y las áreas a las que pertenecen.
+    p.mb-4 En la siguiente figura se puede observar en detalle cuál es el proceso global, las etapas y las áreas a las que pertenecen.
 
     .row.justify-content-center(data-aos="fade-down")
       .col-lg-10    
@@ -64,7 +64,7 @@
                   h4 “Diseño <i>web</i>: fases y etapas para su desarrollo”
                   p.text-small.mb-1 Estimado aprendiz, para profundizar sobre el tema puede consultar la siguiente página:
                 .col-sm-auto
-                  a.boton.color-acento-botones(:href="('https://www.google.com/url?q=https://www.marketerosagencia.com/diseno-web/fases-etapas-diseno-web/&sa=D&source=editors&ust=1631226360938000&usg=AOvVaw2q0ud8VFMil7qcaVVSm0mv')" target="_blank")
+                  a.boton.color-acento-botones(:href="('https://www.marketerosagencia.com/diseno-web/fases-etapas-diseno-web/')" target="_blank")
                     span Enlace web
                     i.fas.fa-link    
 
@@ -155,7 +155,9 @@
             ul.lista-ul
               li 
                 i.fas.fa-angle-right
-                | Es la página <i>web</i> en sí misma en formato HTML.
+                p.mb-0 Es la página 
+                  italic web 
+                  | en sí misma en formato HTML.
               li 
                 i.fas.fa-angle-right
                 | En la siguiente figura se presentan ejemplos de maquetas.  
@@ -179,13 +181,13 @@
             img(src="@/assets/curso/tema2-2-img6.jpg", alt="Frontend")
           .col-md-8
             h4 Frontend
-            p Este concepto se usa para hacer referencia a la presentación de las aplicaciones que se encarga de definir cómo se verán las cosas y cómo se comportará la interacción con el usuario. Frontend es la parte de una aplicación que interactúa con los usuarios, es conocida como el lado del cliente. Básicamente es todo lo que se ve en la pantalla al  acceder a un sitio <i>web</i> o aplicación: tipos de letra, colores, adaptación para distintas pantallas (RWD), los efectos del ratón, teclado, movimientos, desplazamientos, efectos visuales y otros elementos que permiten navegar dentro de una página <i>web</i>. Este conjunto crea la experiencia del usuario. Un desarrollador frontend debe conocer, al menos, los siguientes lenguajes de programación: HTML5, CSS3, JavaScript, Jquery, Ajax.z
+            p Este concepto se usa para hacer referencia a la presentación de las aplicaciones que se encarga de definir cómo se verán las cosas y cómo se comportará la interacción con el usuario. Frontend es la parte de una aplicación que interactúa con los usuarios, es conocida como el lado del cliente. Básicamente es todo lo que se ve en la pantalla al  acceder a un sitio <i>web</i> o aplicación: tipos de letra, colores, adaptación para distintas pantallas (RWD), los efectos del ratón, teclado, movimientos, desplazamientos, efectos visuales y otros elementos que permiten navegar dentro de una página <i>web</i>. Este conjunto crea la experiencia del usuario. Un desarrollador frontend debe conocer, al menos, los siguientes lenguajes de programación: HTML5, CSS3, JavaScript, Jquery, Ajax.
 
     Separador
 
 
     .titulo-sexto.color-amarillo-fuerte-tercer.mb-4(data-aos="fade-right") 
-      h3.mb-0 <i>software</i> para hacer diagramas
+      h3.mb-0 <i>Software</i> para hacer diagramas
 
     p El diseño de diagramas también se puede realizar a través de plataformas o herramientas digitales. Para una mejor comprensión de los mismos se han clasificado en dos grupos: los que originalmente fueron ideados para hacer diagramas y los que no fueron pensados para diagramación, pero que también pueden usarse con este objetivo ya que son poderosas herramientas de diseño gráfico. 
 
@@ -204,7 +206,7 @@
             img(src="@/assets/curso/tema2-2-a-hover1.png", alt="Corel Draw")
         h5.text-center Corel Draw
           br
-          a.color-link(href="www.corel.com" target="_blank") www.corel.com
+          a.color-link(href="https://www.corel.com" target="_blank") www.corel.com
       .col-md-4.mb-4
         .row.justify-content-center.img-tarjeta.mb-3
           .col-4
@@ -218,7 +220,7 @@
             img(src="@/assets/curso/tema2-2-a-hover3.png", alt="Corel Draw")
         h5.text-center Adobe Illustrator
           br
-          a.color-link(href="www.adobe.com" target="_blank") www.adobe.com
+          a.color-link(href="https://www.adobe.com" target="_blank") www.adobe.com
 
 
     .row.justify-content-center
@@ -230,7 +232,7 @@
             .col-lg-8.mb-4.mb-lg-0
               .bloque-texto-a__texto.p-4
                 p Otra opción para hacer la diagramación de sitios <i>web</i> es la propuesta por Jesse James Garret 
-                  a.color-link(href="http://www.jjg.net" target="_blank") (http://www.jjg.net) 
+                  a.color-link(href="http://www.jjg.net/ia/" target="_blank") (http://www.jjg.net) 
                   | que consiste, según el propio autor, en un “vocabulario visual para describir arquitectura de información y diseño de interacción” 
                   strong (Garret, 2002). 
                   | El sistema de diagramación está compuesto de símbolos geométricos, flechas y líneas. El vocabulario visual de Garret es muy útil para representar tanto el diseño de interacción, como la estructura conceptual y organizativa del contenido. 
@@ -303,7 +305,7 @@
             p Se trata de una sigla que corresponde a Hyper Text Markup Language, es decir, Lenguaje de Marcas de Hipertexto, que podría ser traducido como Lenguaje de Formato de Documentos para Hipertexto. Es el principal  lenguaje de marcación que se utiliza para el desarrollo de páginas <i>web</i>.
             p Una definición bastante descriptiva es la que se encuentra en la <i>web</i> Next U que habla de que el HTML es un lenguaje abstracto que usan las aplicaciones para representar documentos (se les llama documentos a instancias completas, como lo son las páginas <i>web</i>) y que puede ser transmitido fácilmente por algún medio, como Internet. Los navegadores de Internet procesan e interpretan documentos descritos en HTML usando un analizador de HTML.
             p El lenguaje HTML está definido por lo que se llama etiquetas, cuyo nombre se delimita usando los símbolos &#60; y &#62;, de la siguiente forma: &#60;etiqueta&#62;. Dichas etiquetas se utilizan para describir algo que se quiere representar en una página <i>web</i>. Por ejemplo: &#60;title&#62;Internet básico, email, descargas y compras en línea&#60;/title&#62; En este ejemplo, la etiqueta &#60;title&#62; se usa para indicar que lo que se pondrá a continuación es el título de la página <i>web</i>. 
-              a.color-link(href="(https://www.nextu.com/blog/que-es-html/9)" target="_blank") (https://www.nextu.com/blog/que-es-html/9)
+              a.color-link(href="https://www.nextu.com/blog/que-es-html/9" target="_blank") (https://www.nextu.com/blog/que-es-html/9)
             p HTML5 también es un término de marketing para agrupar las nuevas tecnologías de desarrollo de aplicaciones <i>web</i>: HTML5, CSS3 y nuevas capacidades de JavaScript. HTML4 y HTML5 que son 100% compatibles entre sí. 
             p Las principales etiquetas HTML5 son:
             .row.align-items-bottom
@@ -425,7 +427,7 @@
 
     .row
       .col-md-7.mb-4
-        p El desarrollo tecnológico que viene experimentando la sociedad, ha llevado en pocos años a ampliar los conceptos, herramientas y por supuesto los medios referidos a la internet. Al inicio, los sitios o páginas <i>web</i> estaban disponibles sólo a través de los computadores de escritorio; posteriormente surgen los computadores portátiles, para finalmente dar paso a los dispositivos móviles como <i>Smartphone</i> (teléfonos inteligentes) y <i>Tablet</i>. 
+        p El desarrollo tecnológico que viene experimentando la sociedad, ha llevado en pocos años a ampliar los conceptos, herramientas y por supuesto los medios referidos a la internet. Al inicio, los sitios o páginas <i>web</i> estaban disponibles solo a través de los computadores de escritorio; posteriormente surgen los computadores portátiles, para finalmente dar paso a los dispositivos móviles como <i>Smartphone</i> (teléfonos inteligentes) y <i>Tablet</i>. 
 
         p En este proceso de transformación y especialización surge el concepto de diseño <i>web</i> <i>responsive</i> o adaptativo que consiste en la aplicación de una técnica de diseño <i>web</i> que busca la correcta visualización de una misma página en distintos dispositivos, como ordenadores de escritorio y móviles pasando por <i>Tablet</i>.
 

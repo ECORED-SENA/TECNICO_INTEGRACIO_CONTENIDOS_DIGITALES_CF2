@@ -122,7 +122,7 @@ export default {
         'https://docplayer.es/78951030-Nuevas-tecnologias-aplicadas-a-la-vida-smartphone-tablet-e-internet.html',
     },
     {
-      referencia: 'Equipo 09, EvntosSv.com. (2019). Maquetacion Web. ',
+      referencia: 'Equipo 09, EvntosSv.com. (2019). Maquetación Web. ',
       link: 'https://evntossv.neocities.org/maquetacion.html',
     },
     {
