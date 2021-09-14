@@ -158,10 +158,7 @@
                 p.mb-0 Es la página 
                   italic web 
                   | en sí misma en formato HTML.
-              li 
-                i.fas.fa-angle-right
-                | En la siguiente figura se presentan ejemplos de maquetas.  
-
+              
     Separador
 
 

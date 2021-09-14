@@ -233,7 +233,7 @@
                       .row.justify-content-between.align-items-center
                         .col.mb-3.mb-sm-0
                           h3.mb-1 Formatos de imagen digital
-                          p.text-small Estimado aprendiz, para profundizar sobre el tema puede dar clic para ir al siguiente documento” Formato de imagen digital
+                          p.text-small Estimado aprendiz, para profundizar sobre el tema puede dar clic para ir al siguiente documento "Formato de imagen digital"
                         .col-sm-auto
                           a.boton.color-acento-botones(:href="obtenerLink('/downloads/formatos_imagen_digital.pdf')" target="_blank")
                             span Descargar
@@ -409,7 +409,7 @@
               hr.mt-0
               h5.text-center Freepik
       .row(titulo="Para computador")
-        p.mb-5 Suelen tener mayores funcionalidades, lo que se traduce en mejor desempeño, pero también ocupan espacio en el disco duro ya que son mucho más completos. Normalmente requieren conocimientos de la herramienta, incluso de diseño, así que se necesita conocimiento y experiencia en su manejo Algunos editores de fotos para computadora son Adobe Photoshop, Corel Draw, Paint.net, GIMP.
+        p.mb-5 Suelen tener mayores funcionalidades, lo que se traduce en mejor desempeño, pero también ocupan espacio en el disco duro ya que son mucho más completos. Normalmente requieren conocimientos de la herramienta, incluso de diseño, así que se necesita conocimiento y experiencia en su manejo. Algunos editores de fotos para computadora son Adobe Photoshop, Corel Draw, Paint.net, GIMP.
         .row.mb-5.justify-content-center.align-items-end
           .col-lg-2
             .iconos-hover.h-100
@@ -701,7 +701,7 @@
             h5 Windows
           p
             b Expstudio:  
-            |  este programa cuenta con múltiples funciones para editar archivos de audio o música. La versión gratuita una vez finalizada la edición sólo permite guardar los audios resultantes en formato wav o mp2.
+            |  este programa cuenta con múltiples funciones para editar archivos de audio o música. La versión gratuita una vez finalizada la edición solo permite guardar los audios resultantes en formato wav o mp2.
       .col-lg-4
         .tarjeta.bg--4-claro.p-4.h-100
           figure.mb-3.ajuste-img.p-3
@@ -761,7 +761,7 @@
           | La imagen en movimiento
     .row.mt-5 
       .col-12.col-lg-9
-        p Son aquellas que pueden verse a través de medios audiovisuales y representan secuencias: cine, animación, vídeo, gift, etc. 
+        p Son aquellas que pueden verse a través de medios audiovisuales y representan secuencias: cine, animación, vídeo, gif, etc. 
         p.mt-3 El movimiento de una imagen se produce cuando una sucesión de imágenes estáticas, llamadas fotogramas, son proyectadas a gran velocidad. Para que una imagen fija se perciba en movimiento se tienen que proyectar un mínimo de 16 imágenes por segundo, aunque para percibirlo como real, se graba y se proyecta a 24 fotogramas por segundo en el cine y a 25 en la televisión y el video.
     Separador
       .col-4.col-lg-3.offset-4.offset-lg-0
